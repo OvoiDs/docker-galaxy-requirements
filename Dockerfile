@@ -16,7 +16,7 @@ RUN apt-get -qq update && apt-get install --no-install-recommends -y apt-transpo
     apt-get install --no-install-recommends -y autoconf automake build-essential gfortran cmake \
     git-core libatlas-base-dev libblas-dev liblapack-dev openssl \
     openjdk-7-jre-headless python-dev python-setuptools \
-    python-virtualenv zlib1g-dev libyaml-dev subversion pkg-config && \
+    python-virtualenv zlib1g-dev libyaml-dev subversion pkg-config slurm-client munge && \
     apt-get autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
     git clone --branch 1.2 https://github.com/samtools/htslib.git && \
     git clone --branch 1.2 https://github.com/samtools/bcftools.git && \
