@@ -1,6 +1,7 @@
 # Galaxy - requirements according to https://wiki.galaxyproject.org/Admin/Config/ToolDependenciesList
 #
 # VERSION   2015.1
+# Updated to ubuntu 17.10 as this is easier than pinning stuff from artful repositories in order to get slurm working.
 
 FROM ubuntu:17.10
 
